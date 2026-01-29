@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mening Portfolio Saytim</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="header">
+    <div class="container nav">
+      <h1 class="logo">Gulsum<span>.</span></h1>
+
+      <ul class="menu" id="menu">
+        <li><a href="#home">Bosh sahifa</a></li>
+        <li><a href="#about">Men haqimda</a></li>
+        <li><a href="#skills">Ko'nikmalar</a></li>
+        <li><a href="#projects">Loyihalar</a></li>
+        <li><a href="#contact">Bog'lanish</a></li>
+      </ul>
+
+      <button class="menu-btn" id="menuBtn">☰</button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="container hero-content">
+      <div class="hero-text">
+        <h2>Salom! Men <span>Web Developer</span>man 👩‍💻</h2>
+        <p>
+          Men zamonaviy, chiroyli va tez ishlaydigan web saytlar yarataman.
+          Portfolio sahifamga xush kelibsiz!
+        </p>
+
+        <div class="buttons">
+          <a href="#projects" class="btn">Loyihalarim</a>
+          <a href="#contact" class="btn btn-outline">Bog'lanish</a>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <h3>📌 Tezkor ma'lumot</h3>
+        <p><b>Ism:</b> Gulsum</p>
+        <p><b>Yo'nalish:</b> Frontend Developer</p>
+        <p><b>Manzil:</b> O'zbekiston</p>
+        <p><b>Holat:</b> Ishga tayyor ✅</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="container">
+      <h2 class="title">Men haqimda</h2>
+      <p class="desc">
+        Men web dasturlashga qiziqaman va HTML, CSS, JavaScript yordamida
+        zamonaviy saytlar yarataman. Maqsadim — foydalanuvchi uchun qulay va
+        chiroyli interfeys tayyorlash.
+      </p>
+
+      <div class="about-grid">
+        <div class="about-box">
+          <h3>🎯 Maqsad</h3>
+          <p>Professional web developer bo‘lish va kuchli portfolio yaratish.</p>
+        </div>
+        <div class="about-box">
+          <h3>🚀 Kuchli tomonlar</h3>
+          <p>Responsiv dizayn, toza kod, tez ishlaydigan saytlar.</p>
+        </div>
+        <div class="about-box">
+          <h3>📚 O‘rganayotgan texnologiyalar</h3>
+          <p>JavaScript, Bootstrap, Git, React (boshlang‘ich).</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section gray" id="skills">
+    <div class="container">
+      <h2 class="title">Ko'nikmalar</h2>
+
+      <div class="skills-grid">
+        <div class="skill">
+          <p>HTML</p>
+          <div class="bar"><span style="width: 95%"></span></div>
+        </div>
+
+        <div class="skill">
+          <p>CSS</p>
+          <div class="bar"><span style="width: 90%"></span></div>
+        </div>
+
+        <div class="skill">
+          <p>JavaScript</p>
+          <div class="bar"><span style="width: 75%"></span></div>
+        </div>
+
+        <div class="skill">
+          <p>Responsive Design</p>
+          <div class="bar"><span style="width: 85%"></span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section" id="projects">
+    <div class="container">
+      <h2 class="title">Loyihalar</h2>
+
+      <div class="projects-grid">
+        <div class="project-card">
+          <h3>🌐 Portfolio Sayt</h3>
+          <p>Shaxsiy portfolio web sayt (HTML, CSS, JS).</p>
+          <a href="#" class="link">Ko'rish →</a>
+        </div>
+
+        <div class="project-card">
+          <h3>🛒 Mini Shop</h3>
+          <p>Oddiy mahsulotlar sahifasi (responsive).</p>
+          <a href="#" class="link">Ko'rish →</a>
+        </div>
+
+        <div class="project-card">
+          <h3>📋 To-do List</h3>
+          <p>Vazifalar ro‘yxati (JavaScript bilan).</p>
+          <a href="#" class="link">Ko'rish →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section gray" id="contact">
+    <div class="container">
+      <h2 class="title">Bog'lanish</h2>
+      <p class="desc">Menga xabar yuborishingiz mumkin 😊</p>
+
+      <form class="contact-form" id="contactForm">
+        <input type="text" id="name" placeholder="Ismingiz" required />
+        <input type="email" id="email" placeholder="Email" required />
+        <textarea id="message" placeholder="Xabaringiz..." required></textarea>
+        <button type="submit" class="btn">Yuborish</button>
+      </form>
+
+      <p class="success" id="successMsg"></p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>© 2026 Gulsum Portfolio | Barcha huquqlar himoyalangan</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
